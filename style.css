@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "ArialRounded";
+  font-display: swap;
+  src: url("/fonts/ArialRounded/Arial_Rounded_MT.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ArialRounded";
+  font-display: swap;
+  src: url("/fonts/ArialRounded/Arial-Rounded-MT-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+  font-family: "ArialRounded", "Segoe UI", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+
+  font-weight: 300;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+}
+#target {
+  background-color: #f05b56;
+}
+
+button,
+textarea,
+input {
+  font-family: "ArialRounded";
+}
+
+h1,
+h2 {
+  margin-top: 34px;
+  display: inline-block;
+  padding-bottom: 4px;
+  margin-bottom: 4px;
+  line-height: 1.4em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: hsl(357, 50%, 22%);
+  margin-top: 1.8rem;
+  margin-bottom: 0em;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+@media only screen and (max-width: 680px) {
+  h1,
+  h2 {
+    letter-spacing: -0.2px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6em;
+  color: hsl(357, 12%, 42%);
+}
+
+@media only screen and (max-width: 680px) {
+  p,
+  li {
+    font-size: 16px;
+  }
+}
+
+ul {
+  font-size: 18px;
+  list-style: none;
+  -webkit-padding-start: 24px;
+}
+
+ol {
+  font-size: 16px;
+  -webkit-padding-start: 24px;
+}
+
+li {
+  line-height: 1.6rem;
+  color: hsl(357, 12%, 42%);
+  margin: 12px 0px;
+}
+a {
+  text-decoration: none !important;
+  color: hsl(357, 74%, 67%);
+  font-weight: bold;
+}
+
+.paragraph_header:after {
+  content: "";
+  display: block;
+  width: 24px;
+  padding-top: 8px;
+  border-bottom: 4px solid #f05b56;
+  opacity: 0.6;
+}
+
+.container {
+  max-width: 620px;
+  margin: auto;
+  padding: 0 12px;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.title {
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 680px) {
+  .heroimage__title {
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+  .header__brand_title {
+    font-size: 20px;
+  }
+  .header__brand_icon {
+    width: 20px;
+  }
+}
+
+.heroimage__img {
+  width: 220px;
+}
