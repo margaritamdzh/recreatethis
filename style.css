@@ -1,19 +1,6 @@
-@font-face {
-  font-family: "ArialRounded";
-  font-display: swap;
-  src: url("/fonts/ArialRounded/Arial_Rounded_MT.ttf") format("truetype");
-}
-@font-face {
-  font-family: "ArialRounded";
-  font-display: swap;
-  src: url("/fonts/ArialRounded/Arial-Rounded-MT-Bold.ttf") format("truetype");
-  font-weight: bold;
-}
-
 body {
   margin: 0;
-  font-family: "ArialRounded", "Segoe UI", sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Urbanist";
 
   font-weight: 300;
   -webkit-tap-highlight-color: transparent;
@@ -26,7 +13,7 @@ body {
 button,
 textarea,
 input {
-  font-family: "ArialRounded";
+  font-family: "Urbanist";
 }
 
 h1,
@@ -123,20 +110,117 @@ a {
   margin-top: 50px;
   margin-bottom: 20px;
 }
-
-@media only screen and (max-width: 680px) {
-  .heroimage__title {
-    margin-top: 20px;
-    margin-bottom: 0px;
-  }
-  .header__brand_title {
-    font-size: 20px;
-  }
-  .header__brand_icon {
-    width: 20px;
-  }
+#bgpart {
+  background-color: #db524d;
+  width: auto;
+  height: auto;
 }
-
-.heroimage__img {
-  width: 220px;
+#logo {
+  width: 130px;
+  margin-left: 30%;
+  height: 30px;
+}
+#button1 {
+  background-color: #e1716d;
+  border: none;
+  color: white;
+  padding: 5px 35px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 6px;
+  margin-left: 180px;
+}
+#button2 {
+  background-color: #e1716d;
+  border: none;
+  color: white;
+  padding: 5px 35px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 6px;
+}
+#button3 {
+  background-color: #e1716d;
+  border: none;
+  color: white;
+  padding: 5px 35px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 6px;
+}
+hr {
+  width: 40%;
+  height: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #c54a45;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+#content-box {
+  box-sizing: content-box;
+  background-color: #df645f;
+  border-radius: 10px;
+  width: 600px;
+  height: 350px;
+  margin-left: 350px;
+}
+#button4 {
+  background-color: #be5551;
+  border: none;
+  color: white;
+  padding: 5px 35px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 6px;
+  margin-left: 15px;
+  margin-right: 20px;
+}
+#button5 {
+  background-color: #df645f;
+  border: none;
+  color: white;
+  padding: 5px 35px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 6px;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+#button6 {
+  background-color: #df645f;
+  border: none;
+  color: white;
+  padding: 5px 35px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 6px;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+#button7 {
+  background-color: #e1716d;
+  border: none;
+  padding: 10px 60px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 6px;
+  margin-left: 200px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+#timer {
+  font-family: "Urbanist";
+  font-size: 200px;
+  margin-top: 1px;
+  margin-left: 80px;
+  color: white;
 }
